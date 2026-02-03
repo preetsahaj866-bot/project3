@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Header / Hero Section -->
+  <header class="hero">
+    <div class="overlay"></div>
+
+    <!-- Navbar -->
+<nav class="navbar">
+  <a href="https://www.netflix.com" target="_blank">
+    <img 
+      src=https://static.vecteezy.com/system/resources/previews/029/337/390/non_2x/netflix-logo-black-background-free-vector.jpg
+      alt="Netflix Logo"
+      class="logo"
+    >
+  </a>
+
+      <button class="sign-in">Sign In</button>
+    </nav>
+
+    <!-- Hero Content -->
+    <div class="hero-content">
+      <h1>Unlimited movies, shows, and more</h1>
+      <h2>Starts at ₹149. Cancel at any time.</h2>
+      <p>Ready to watch? Enter your email to create or restart your membership.</p>
+
+      <div class="email-box">
+        <input type="email" placeholder="Email address">
+        <button>Get Started ></button>
+      </div>
+    </div>
+  </header>
+  .curve-circle {
+  background-color: #000;
+  background-image: url("curve.png");
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-size: 110% auto;
+
+  padding-bottom: 70px; /* curve ke liye space */
+}
+
+  
+
+
+</body>
+</html>
